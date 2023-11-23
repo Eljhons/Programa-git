@@ -3,6 +3,7 @@
 <%@ page import="java.io.PrintWriter" %>
 <%@ page import="java.io.IOException" %>
 
+
 <%
     // Conexión a la base de datos
     String url = "jdbc:mysql://localhost:3306/test";

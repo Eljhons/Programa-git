@@ -1,10 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a Test7</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 <body>
+    <h1>Bienvenido a mi aplicación Test7</h1>
 
+    <!-- Formulario para insertar un nuevo registro -->
+    <form id="createForm">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="age">Edad:</label>
+        <input type="number" id="age" name="age" required>
+        <button type="button" onclick="insertRecord()">Insertar</button>
+    </form>
+
+
+
+    <!-- Formulario para eliminar registros por ID -->
+    <form id="deleteForm">
+        <label for="deleteId">Eliminar por ID:</label>
+        <input type="number" id="deleteId" name="deleteId" required>
+        <button type="button" onclick="deleteRecordById()">Eliminar</button>
+    </form>
+
+    <!-- Lista para mostrar los registros -->
+    <div id="records"></div>
+
+    <!-- Script JavaScript para manejar las operaciones CRUD de manera interactiva -->
+    <script src="yourScriptFile.js"></script>
 </body>
 </html>
