@@ -1,0 +1,5 @@
+com\example\model\PersonaDAO.class
+com\example\model\PersonaDAOInterface.class
+com\example\model\HibernateUtil.class
+com\example\model\Persona.class
+com\example\servlet\PersonaServlet.class
